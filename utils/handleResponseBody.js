@@ -9,7 +9,7 @@ const handleResponseSuccess = (data, message) => {
  const handleResponseFail = (code,data, message) => {
     return JSON.stringify({
         code: code,
-        message: message || '请求成功',
+        message: message || '系统异常',
         data
     })
 }

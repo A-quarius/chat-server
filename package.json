@@ -14,5 +14,8 @@
     "morgan": "~1.9.1",
     "openai": "^3.2.1",
     "pug": "2.0.0-beta11"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11"
   }
 }
